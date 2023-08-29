@@ -1,0 +1,145 @@
+body{
+  background-color: bisque;
+  margin-left: 10px;
+  padding: 0;
+}
+nav{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.navigation a{
+  text-align: end;
+  width: 10%;
+  color: rgb(17, 225, 208);
+  text-decoration: none;
+  font-size: 19px;
+  padding: 10px 30px;
+  background-color: rgb(10, 80, 6);
+  border-radius: 25px;
+  
+  font-family: 'Times New Roman', Times, serif;
+  justify-content: end;
+  margin-left: 85%;
+}
+.navigation a:hover{
+  background-color:rgb(13, 235, 224);
+  color: rgb(16, 51, 229);
+}
+.heading{
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
+  text-align: center;
+}
+.application{
+  font-size: 20px;
+  text-align: center;
+}
+
+form{
+  margin-left: 300px;
+}
+.form-group label{
+  color: rgb(6, 33, 80);
+  font-size: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: oblique;
+  padding: auto;
+  font-weight: bold;
+  width: 20%;
+  padding: auto 20px;
+  margin-top:20px ;
+  
+  
+}
+.form-group input{
+    border: 2px solid pink;
+    margin-top:30px ;
+    padding: 10px 20px;
+    width: 40%;
+    display: inline;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.form-group1 input{
+  border: 2px solid pink ;
+  display: inline-block;
+  margin-top:30px ;
+  margin-left: 100px;
+}
+.form-group1 label{
+  color: rgb(6, 33, 80);
+  font-size: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: oblique;
+  margin-top: 30px;
+  font-weight: bold;
+  
+}
+
+
+button{
+ padding: 10px 40px;
+ color: black;
+ background-color: pink;
+ border-radius: 25px;
+ border: 1px solid pink;
+ align-items: center;
+ font-size: 18px;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ text-align: center;
+ display: grid;
+ margin-left:350px;
+}
+button:hover{
+  color: rgb(252, 252, 252);
+  background-color:rgb(188, 53, 76);
+}
+.container h2{
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  display: grid;
+  text-transform: uppercase;
+  color: brown;
+}
+.container{
+  margin: auto;
+}
+.container button{
+padding: 10px 40px;
+color: black;
+background-color: pink;
+border-radius: 25px;
+border: 1px solid pink;
+align-items: center;
+font-size: 18px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: center;
+display: grid;
+margin-top: 10px;
+}
+.container button:hover{
+  color: rgb(252, 252, 252);
+  background-color:rgb(188, 53, 76);
+}
+.container label
+{
+  color: rgb(6, 33, 80);
+  font-size: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: oblique;
+  padding: auto;
+  font-weight: bold;
+  width: 25%;
+  padding: auto 40px;
+  margin-top:30px ;
+  
+}
+.container input{
+  border-bottom: 2px solid pink;
+  padding: 10px 20px;
+  width: 40%;
+  display: inline;
+  margin-top: 20px;
+}

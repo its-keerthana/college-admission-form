@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Application</title>
+</head>
+<body>
+    <nav class="navigation"><a href=login.php>Admin Login</a></nav>
+    <div class="heading">
+        <h1> College Application Form</h1>
+    </div>
+    <div class="application">
+        <h3>Fill out this form</h3>
+    </div>
+    <form action="save.php" method="post">
+    <div class="form-group mt-3">
+        <label for="firstname"> First Name</label>
+        <input type="text" name="firstname" class="form-control" id="firstname">
+    </div>
+    <div class="form-group mt-3">
+        <label for="lastname">Last Name</label>
+        <input type="text" name="lastname" class="form-control" id="lastname">
+    </div>
+    <div class="form-group mt-2">
+        <label for="dob"> Date of Birth</label>
+        <input type="date" name="dob" class="form-control" id="dob">
+    </div>
+   
+    <div class="form-group1 mt-2">
+        <label for="gender">Gender</label>
+        
+        <input type="radio" class="form-check-input" style="margin-left: 270px;" name="gender">
+        <label class="radio-inline">Female</label>
+        
+        <input type="radio" class="form-check-input ms-5" name="gender">
+        <label class="radio-inline">Male</label>
+    </div>
+    <div class="form-group mt-2">
+        <label for="school12"> 12th standard studied school </label>
+        <input type="text" name="school12" id="school12" class="form-control">
+    </div>
+    <div class="form-group mt-2">
+        <label for="mark12"> 12th Mark </label>
+        <input type="number" name="mark12" id="mark12" class="form-control">
+    </div>
+    <div class="form-group mt-2">
+        <label for="school10"> 10th standard studied school </label>
+        <input type="text" name="school10" id="school10" class="form-control">
+    </div>
+    <div class="form-group mt-2">
+        <label for="mark10"> 10th Mark </label>
+        <input type="number" name="mark10" id="mark10" class="form-control">
+    </div>
+
+    <div class="form-group mt-2">
+        <label for="religion"> Religion</label>
+        <input type="text" name="religion" class="form-control" id="religion">
+    </div>
+    <div class="form-group1 mt-2">
+        <label for="dept">dept</label>
+        
+        <input type="radio" class="form-check-input"  style="margin-left: 280px;" name="dept">
+        <label class="radio-inline ">EEE</label>
+        
+        <input type="radio" class="form-check-input ms-5" name="dept">
+        <label class="radio-inline">ECE</label>
+        
+        <input type="radio" class="form-check-input ms-5" name="dept">
+        <label class="radio-inline">CSE</label>
+        <input type="radio" class="form-check-input ms-5" name="dept">
+        <label class="radio-inline">MECH</label>
+        <input type="radio" class="form-check-input ms-5" name="dept">
+        <label class="radio-inline">IT</label>
+    </div>
+    <div class="form-group mt-2">
+        <label for="fathername"> Father's Name</label>
+        <input type="text" name="fathername" class="form-control" id="fathername">
+    </div>
+    <div class="form-group mt-2">
+        <label for="phone"> Mobile number</label>
+        <input type="text" name="phone" class="form-control" id="phone">
+    </div>
+    <div class="form-group mt-2 mb-2">
+        <label for="addr" > Address</label>
+        <input type="text" name="addr" class="form-control" id="addr">
+    </div>
+    <button type="submit" name="submit" class="mt-3" > Submit</button>
+    </form>
+</body>
+</html>
